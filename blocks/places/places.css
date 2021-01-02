@@ -1,0 +1,67 @@
+.places {
+  padding: 92px 100px 0;
+}
+
+.places__place {
+  display: grid;
+  grid-template-columns: 45% 50%;
+  gap: 48px 40px;
+  margin: 0 auto 80px;
+}
+
+.places__place:last-child {
+  margin-bottom: 0;
+}
+
+.places__title {
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.places__website {
+  align-self: end;
+}
+
+.places__url-heading {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 0.2em;
+  color: #AAAAAA;
+  margin: 0 0 12px;
+}
+
+.places__link {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+
+.places__image {
+  width: 100%;
+}
+
+.places__text {
+
+}
+
+.places__paragraph {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.63;
+  color: #FFFFFF;
+  margin: 0 0 26px;
+}
+
+.places__paragraph:last-child {
+  margin-bottom: 0;
+}
