@@ -20,6 +20,14 @@
   color: #FFFFFF;
   text-decoration: none;
   margin-right: 18px;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+  -o-transition: opacity .2s ease-in-out;
+  transition: opacity .2s ease-in-out;
+}
+
+.header__lang-link:hover {
+  opacity: .8;
 }
 
 .header__lang-link_active {
