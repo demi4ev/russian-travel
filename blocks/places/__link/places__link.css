@@ -1,0 +1,16 @@
+.places__link {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+  text-decoration: underline;
+  color: #FFFFFF;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+  -o-transition: opacity .2s ease-in-out;
+  transition: opacity .2s ease-in-out;
+}
+
+.places__link:hover {
+  opacity: .8;
+}

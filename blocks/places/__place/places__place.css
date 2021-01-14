@@ -1,0 +1,23 @@
+.places__place {
+  display: grid;
+  grid-template-columns: 45% 50%;
+  gap: 48px 40px;
+  margin: 0 auto 80px;
+}
+
+.places__place:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .places__place {
+    grid-template-columns: 100%;
+    gap: 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .places__place {
+    gap: 48px 28px;
+  }
+}

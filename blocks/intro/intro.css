@@ -2,37 +2,27 @@
   display: flex;
   flex-direction: column;
   padding: 92px 100px 0;
+  max-width: 984px;
+  margin: 0 auto;
 }
 
-.intro__title {
-  font-family: Inter;
-  font-weight: 900;
-  font-size: 54px;
-  line-height: 1.07;
-  color: #FFFFFF;
-  margin: 0 0 40px;
+@media screen and (max-width: 767px) {
+  .intro {
+    padding: 64px 16px 0;
+  }
 }
 
-.intro__text {
-  font-family: Inter;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.63;
-  color: #FFFFFF;
-  margin: 0 0 32px;
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .intro {
+    padding: 88px 24px 0;
+    margin: 0 auto;
+    max-width: 100%;
+  }
 }
 
-.intro__list {
-  list-style-type: none;
-  font-family: Inter;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 1.5;
-  color: #FFFFFF;
-  margin: 0;
-  padding: 0;
-}
-
-.intro__list-light {
-  font-weight: 400;
+@media screen and (max-width: 1279px) and (min-width: 1023px) {
+  .intro {
+    padding: 92px 0 0;
+    margin: 0;
+  }
 }
