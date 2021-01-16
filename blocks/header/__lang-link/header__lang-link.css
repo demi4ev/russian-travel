@@ -17,10 +17,6 @@
   opacity: .8;
 }
 
-.header__lang-link_active {
-  text-decoration: underline;
-}
-
 .header__lang-link:last-child {
   margin-right: 0;
 }
