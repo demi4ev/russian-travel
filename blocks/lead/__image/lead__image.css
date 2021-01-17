@@ -5,13 +5,13 @@
 
 @media screen and (max-width: 767px) {
   .lead__image {
-    width: 100vw;
+
     }
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
   .lead__image {
-    width: 100vw;
+
   }
 }
 
