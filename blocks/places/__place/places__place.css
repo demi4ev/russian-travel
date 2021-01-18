@@ -1,6 +1,6 @@
 .places__place {
   display: grid;
-  grid-template-columns: 45% 50%;
+  grid-template-columns: 47% 49%;
   gap: 48px 40px;
   margin: 0 auto 80px;
 }
